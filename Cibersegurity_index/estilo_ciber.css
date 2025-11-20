@@ -1,0 +1,134 @@
+@import url('href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap"');
+
+body {
+    margin: 0 auto;
+    box-sizing: border-box;
+    font-family: 'Outfit', sans-serif;
+    background-color: #000000;
+}
+
+/*header*/
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 160px 0 120px;
+    background-image: url(img_ciber/pexels-pixabay-219692.jpg);
+    background-image: 
+        linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+        url(img_ciber/pexels-pixabay-219692.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*header top*/
+
+.header__top {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.header__logo {
+    width: 100px;
+    height: 100px;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 0 20px;
+}
+
+.nav__link {
+    text-decoration: none;
+    font-weight: 300;
+    color: white;
+}
+
+.nav__link--border {
+    border: 1px solid white;
+    padding: 15px;
+    border-radius: 15%;
+}
+
+/*header bottom*/
+
+.header__bottom {
+    padding: 120px 0 120px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header__title {
+    font-size: 48px;
+    font-weight: 400;
+
+}
+
+.header__text {
+    font-size: 18px;
+    font-weight: 200;
+}
+
+.header__linkContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.header__link {
+    text-decoration: none;
+    border: 1px solid white;
+    border-radius: 15px;
+    padding: 15px;
+    background-color: white;
+    color: rgb(88, 89, 89);
+}
+
+.header__link--bg {
+    background-color: transparent;
+    color: white;
+}
+
+/*Security*/
+
+.security {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: aqua;
+    margin-top: 20px;
+}
+
+.security__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 20px;
+}
+
+.security__title {
+    text-align: center;
+    border-bottom: 1px solid black;
+}
+
+.security__text {
+    text-align: center;
+}
+
+.security__img {
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
+}
